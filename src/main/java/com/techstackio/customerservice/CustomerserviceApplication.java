@@ -16,13 +16,13 @@ public class CustomerserviceApplication {
 		SpringApplication.run(CustomerserviceApplication.class, args);
 	}
 
-	/*@Bean
+	@Bean
 	public CommandLineRunner demo(CustomerRepository customerRepository) {
 		return (args -> {
 			customerRepository.save(new Customer( "Venkat"));
-			customerRepository.save(new Customer( "Vignesh"));
+			customerRepository.save(new Customer( "Ganesh"));
 
 		});
-	}*/
+	}
 
 }
